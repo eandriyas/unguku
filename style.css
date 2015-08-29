@@ -1,5 +1,5 @@
 /*   
-Theme Name: Thousand Years
+Theme Name: Unguku
 Theme URI: http://fb.me/andriyas.pelajar
 Description: tema gawe wp seng artikel njelasne tentang alam
 Author: Andriyas Efendi
@@ -94,15 +94,17 @@ html, body {
         border-bottom: 1px solid #E8E8E8; }
         .container .isi main article img {
           width: 640px; }
-        .container .isi main article h2 a {
-          color: #000;
-          text-decoration: none;
-          text-align: left;
-          font-weight: 200;
-          font-size: 16pt; }
-        .container .isi main article h2 a:hover {
-          text-decoration: underline;
-          color: #81007F; }
+        .container .isi main article h2 {
+          font-weight: 200; }
+          .container .isi main article h2 a {
+            color: #000;
+            text-decoration: none;
+            text-align: left;
+            font-weight: 200;
+            font-size: 16pt; }
+          .container .isi main article h2 a:hover {
+            text-decoration: underline;
+            color: #81007F; }
         .container .isi main article p {
           text-align: justify;
           font-size: 12pt;
