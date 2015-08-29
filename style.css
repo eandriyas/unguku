@@ -1,0 +1,126 @@
+/*   
+Theme Name: Thousand Years
+Theme URI: http://fb.me/andriyas.pelajar
+Description: tema gawe wp seng artikel njelasne tentang alam
+Author: Andriyas Efendi
+Version: 1.00
+*/
+html, body {
+  font-family: 'Helvetica'; }
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  background: #81007F;
+  height: 100%; }
+  .container .isi {
+    width: 1024px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto; }
+    .container .isi header {
+      width: 1024px;
+      height: 100px;
+      background: #000; }
+      .container .isi header .logo {
+        width: 1024px;
+        height: 125px;
+        background: #7BBBFF; }
+      .container .isi header .nav {
+        width: 1004px;
+        float: left;
+        background: #fff;
+        padding: 20px 10px;
+        border: 1px solid #E8E8E8;
+        margin: 5px 0; }
+        .container .isi header .nav ul {
+          display: inline; }
+          .container .isi header .nav ul li {
+            list-style: none;
+            float: left; }
+            .container .isi header .nav ul li a {
+              padding: 10px;
+              color: #5F5F5F;
+              text-decoration: none; }
+            .container .isi header .nav ul li a:hover {
+              color: #81007F; }
+    .container .isi aside {
+      width: 339px;
+      background: #fff;
+      border-left: 1px solid #E8E8E8;
+      float: left; }
+      .container .isi aside .widget {
+        padding: 0;
+        margin: 0; }
+        .container .isi aside .widget .w-title {
+          font-size: 16pt;
+          color: #000;
+          font-weight: lighter;
+          padding: 10px;
+          border-bottom: 5px solid #81007F;
+          margin: 10px 0; }
+        .container .isi aside .widget .w-content {
+          padding: 0 10px; }
+          .container .isi aside .widget .w-content a {
+            height: 65px;
+            float: left; }
+            .container .isi aside .widget .w-content a img {
+              width: 50px;
+              height: 50px;
+              float: left; }
+            .container .isi aside .widget .w-content a p {
+              width: 240px;
+              float: left;
+              margin: 0 10px;
+              color: #5F5F5F;
+              font-size: 12pt; }
+            .container .isi aside .widget .w-content a p:hover {
+              text-decoration: underline;
+              color: #81007F; }
+        .container .isi aside .widget .w-footer {
+          width: 310px;
+          float: left;
+          border-bottom: 1px solid #E8E8E8;
+          margin: 10px; }
+    .container .isi main {
+      width: 640px;
+      background: #fff;
+      border: 1px solid #E8E8E8;
+      float: left;
+      padding: 10px 20px; }
+      .container .isi main article {
+        padding: 20px 0;
+        border-bottom: 1px solid #E8E8E8; }
+        .container .isi main article img {
+          width: 640px; }
+        .container .isi main article h2 a {
+          color: #000;
+          text-decoration: none;
+          text-align: left;
+          font-weight: 200;
+          font-size: 16pt; }
+        .container .isi main article h2 a:hover {
+          text-decoration: underline;
+          color: #81007F; }
+        .container .isi main article p {
+          text-align: justify;
+          font-size: 12pt;
+          color: #5F5F5F; }
+        .container .isi main article .read-more {
+          color: #81007F;
+          font-style: italic; }
+    .container .isi footer {
+      width: 1024px;
+      background: white;
+      float: left;
+      overflow: hidden;
+      margin-top: 5px; }
+      .container .isi footer p {
+        color: #5F5F5F;
+        font-size: 14pt;
+        text-align: center; }
+        .container .isi footer p a {
+          color: #81007F; }
+
+/*# sourceMappingURL=style.css.map */

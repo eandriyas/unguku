@@ -1,0 +1,171 @@
+/*   
+Theme Name: Thousand Years
+Theme URI: http://fb.me/andriyas.pelajar
+Description: tema gawe wp seng artikel njelasne tentang alam
+Author: Andriyas Efendi
+Version: 1.00
+*/
+$ungu : #81007F;
+$abu : #E8E8E8;
+$abuteks : #5F5F5F;
+html, body{
+	font-family: 'Helvetica';
+
+}
+.container{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background: $ungu;
+	height: 100%;
+	.isi{
+		width: 1024px;
+		height: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+		header{
+			width:1024px;
+			height:100px;
+			background:#000;
+			.logo{
+				width:1024px;
+				height:125px;
+				background:#7BBBFF;
+			}
+			.nav{
+				width: 1004px;
+				float: left;
+				background: #fff;
+				padding: 20px 10px;
+				border: 1px solid $abu;
+				margin: 5px 0;
+
+				ul{
+					display: inline;
+					li{
+						list-style:none;
+						float: left;
+						a{
+							padding: 10px;
+							color: $abuteks;
+							text-decoration: none;
+
+
+						}
+						a:hover{
+							color: $ungu;
+						}
+					}
+				}
+			}
+		}
+		aside{
+			width: 339px;
+			background: #fff;
+			border-left: 1px solid $abu;
+			float: left;
+			.widget{
+				padding:0;
+				margin: 0;
+
+				.w-title{
+					font-size: 16pt;
+					color:#000;
+					font-weight: lighter;
+					padding: 10px;
+					border-bottom: 5px solid $ungu;
+					margin: 10px 0;
+				}
+				.w-content{
+					padding: 0 10px;
+					a{
+						height: 65px;
+						float: left;
+						img{
+							width: 50px;
+							height: 50px;
+							float: left;
+
+						}
+						p{
+							width: 240px;
+							float: left;
+							margin: 0 10px;
+							color: $abuteks;
+							font-size: 12pt;
+
+						}
+						p:hover{
+							text-decoration: underline;
+							color: $ungu;
+						}
+					}
+
+
+				}
+				.w-footer{
+					width: 310px;
+					float: left;
+					border-bottom: 1px solid $abu;
+					margin: 10px;
+
+				}
+			}
+
+		}	
+		main{
+			width: 640px;
+			background: #fff;
+			border: 1px solid $abu;
+			float: left;
+			padding: 10px 20px;
+			article{
+				padding: 20px 0;
+				border-bottom: 1px solid $abu;
+				img{
+					width: 640px;
+				}
+				h2{
+					a{
+						color:#000;
+						text-decoration: none;
+						text-align: left;
+						font-weight: 200;
+						font-size: 16pt;
+
+					}
+					a:hover{
+						text-decoration: underline;
+						color: $ungu;
+					}
+				}
+				p{
+					text-align: justify;
+					font-size: 12pt;
+					color: $abuteks;
+
+				}
+				.read-more{
+					color:$ungu;
+					font-style: italic;
+				}
+			}
+		}
+		footer{
+			width: 1024px;
+			background: white;
+			float: left;
+			overflow: hidden;
+			margin-top: 5px;
+			p{
+				color: $abuteks;
+				font-size: 14pt;
+				text-align: center;
+				a{
+					color: $ungu;
+				}
+			}
+		}
+	}
+	
+}
